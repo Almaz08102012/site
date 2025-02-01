@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Курс валют</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="center">
+    <div>
+        <img class="img" src="https://bank.bcs.ru/assets/images/carousel/spread.png">
+        <br>
+        <div class="cen">
+
+        <label>Валюта</label>
+        <select class="f" id="valu"></select>
+        <br>
+        <button class="button" onclick="valuta()"> Выдать курс валюты</button>
+        <br>
+        <label>Курс валюты</label>
+        <input class="cur" id="kurs" type="text">
+        <br>
+        <label>Количество</label>
+        <input class="koli" id="colvo" type="number" min="1">
+        <br>
+        <button class="button" onclick="potschitat()">Подсчитать</button>
+        <br>
+        <label>Результат</label>
+        <input class="re" id="col" type="number" readonly>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script src="script.js"></script>

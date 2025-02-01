@@ -1,0 +1,36 @@
+.img{
+width:426px;
+height:322px;
+}
+.button{
+    color: black;
+    background-color: #00ffd0;
+}
+.cur{
+    color: red;
+    background-color: #00ff6993;
+}
+.koli{
+    color:black;
+    background-color: #ff880093;
+}
+.re{
+    color:brown;
+    background-color: #eaff0093;
+}
+.f{
+    color:blue;
+    background-color: #f000;
+}
+.center{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     height: 100vh;
+}
+.cen{
+    margin-left:100px
+}
+.cen > *{
+margin-top:10px
+}
